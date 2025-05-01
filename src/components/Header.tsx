@@ -9,14 +9,14 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-primary text-white py-12 md:py-20">
+    <header className="bg-primary text-white py-16">
       <div className="container">
         <div className="fade-in flex flex-col items-start">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">Aman Agarwal</h1>
-          <div className="text-xl md:text-2xl text-accent font-medium mb-6">
+          <h1 className="text-5xl font-bold mb-2">Aman Agarwal</h1>
+          <div className="text-2xl text-accent font-medium mb-6">
             Chartered Accountant | B.Com
           </div>
-          <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl">
+          <p className="text-xl mb-8 opacity-90 max-w-2xl">
             Finance professional with expertise in business finance, investment analysis, 
             and accounting compliance.
           </p>

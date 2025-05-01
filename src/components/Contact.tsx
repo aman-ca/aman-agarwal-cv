@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="container">
         <h2 className="text-primary mb-8">Contact Details</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           <Card className="fade-in shadow-sm hover:shadow transition-all duration-300">
             <CardContent className="p-6 flex items-center gap-4">
               <div className="bg-primary/10 p-3 rounded-full">

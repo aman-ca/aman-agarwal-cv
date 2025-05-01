@@ -43,7 +43,7 @@ const Education = () => {
                 <TableHead>Year</TableHead>
                 <TableHead>Institute</TableHead>
                 <TableHead>Score</TableHead>
-                <TableHead className="hidden sm:table-cell">Achievements</TableHead>
+                <TableHead>Achievements</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
@@ -53,21 +53,11 @@ const Education = () => {
                   <TableCell>{item.year}</TableCell>
                   <TableCell>{item.institute}</TableCell>
                   <TableCell>{item.score}</TableCell>
-                  <TableCell className="hidden sm:table-cell">{item.achievements}</TableCell>
+                  <TableCell>{item.achievements}</TableCell>
                 </TableRow>
               ))}
             </TableBody>
           </Table>
-        </div>
-
-        {/* Mobile view for achievements column */}
-        <div className="sm:hidden mt-6 space-y-4">
-          {educationData.map((item, index) => (
-            <div key={`mobile-${index}`} className="bg-white p-3 rounded-md shadow-sm">
-              <strong className="text-primary">{item.qualification} Achievements:</strong>
-              <div className="mt-1">{item.achievements}</div>
-            </div>
-          ))}
         </div>
       </div>
     </section>

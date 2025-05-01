@@ -42,9 +42,15 @@
     @apply border-border;
   }
 
+  html, body {
+    min-width: 1024px;
+    overflow-x: auto;
+  }
+
   body {
     @apply bg-background text-foreground font-sans;
     font-family: 'Inter', sans-serif;
+    width: 100%;
   }
   
   h1, h2, h3, h4, h5, h6 {
