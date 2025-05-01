@@ -66,7 +66,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="text-lg font-medium hover:text-primary transition-colors"
                 >
-                  www.linkedin.com/in/asd
+                  https://www.linkedin.com/in/ca-amanagarwal/
                 </a>
               </div>
             </CardContent>
