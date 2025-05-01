@@ -61,7 +61,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-muted-foreground mb-1">LinkedIn</p>
                 <a 
-                  href="https://www.linkedin.com/in/asd" 
+                  href="https://www.linkedin.com/in/ca-amanagarwal/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-lg font-medium hover:text-primary transition-colors"
