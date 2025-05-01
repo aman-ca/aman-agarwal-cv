@@ -1,56 +1,64 @@
-# Welcome to your Lovable project
+
+# Welcome to Aman Agarwal's CV
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/9a39bb19-f902-43dd-8e0c-151600441e13
 
-## How can I edit this code?
+## Deploying to GitHub Pages
 
-There are several ways of editing your application.
+To deploy this project to GitHub Pages, follow these steps:
 
-**Use Lovable**
+1. Create a GitHub repository named `aman-agarwal-cv`
+2. Connect your local project to the repository:
+   ```sh
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/<YOUR-USERNAME>/aman-agarwal-cv.git
+   git push -u origin main
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9a39bb19-f902-43dd-8e0c-151600441e13) and start prompting.
+3. Deploy the project using one of these methods:
 
-Changes made via Lovable will be committed automatically to this repo.
+   **Method 1: Using npm scripts**
+   ```sh
+   # Build and deploy
+   npm run deploy
+   ```
 
-**Use your preferred IDE**
+   **Method 2: Using the deploy script**
+   ```sh
+   # Make the script executable
+   chmod +x deploy.sh
+   
+   # Update the GitHub username in the script
+   # Then run
+   ./deploy.sh
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. Your CV will be available at `https://<YOUR-USERNAME>.github.io/aman-agarwal-cv/`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Development
 
-Follow these steps:
+Follow these steps to run the project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd aman-agarwal-cv
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
@@ -59,15 +67,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9a39bb19-f902-43dd-8e0c-151600441e13) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
